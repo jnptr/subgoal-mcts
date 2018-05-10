@@ -1,0 +1,1 @@
+Checks: 'misc-*, modernize-*,bugprone-*,performance-*,google-*,readability-*,-readability-implicit-bool-cast,-*-braces-around-statements,-readability-else-after-return,-google-readability-todo'
