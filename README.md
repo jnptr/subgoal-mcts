@@ -2,6 +2,8 @@
 
 Partial code for Master's thesis *Subgoal-Based Temporal Abstractions in Monte-Carlo Tree Search* (2018) by Jan Peter.
 
+The underlying method was developed together with Christian Meyer during a university project in 2016.
+
 ---
 
 To address the problem of efficiently generating macro-actions from a subgoal predicate in deterministic domains, we propose an extension to *Monte-Carlo Tree Search (MCTS)* that dynamically samples an approximate set of available macro-actions locally for each state. This is done by modifying the expansion phase of MCTS to generate random sequences of primitive actions until a subgoal is reached. Once the likelihood of discovering further macro-actions that terminate in a distinct subgoal drops below a threshold, the set of macro-actions is considered complete and is used for further planning. By treating this macro-action sampling as a Bernoulli trial, we do not make any assumptions about the number of macro-actions possible in each state and only rely on a desired *action coverage* along with a tolerated error.
