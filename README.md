@@ -2,7 +2,7 @@
 
 Partial code for Master's thesis *Subgoal-Based Temporal Abstractions in Monte-Carlo Tree Search* (2018) by Jan Peter.
 
-The underlying method was developed together with Christian Meyer during a university project in 2016.
+The underlying algorithm was developed together with Christian Meyer during a university project in 2016.
 
 ---
 
